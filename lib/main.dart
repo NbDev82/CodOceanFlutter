@@ -5,16 +5,21 @@ void main() {
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return MaterialApp(
+      title: 'Flutter Cod Ocean',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => LoginScreen(),
+        '/register': (context) => RegisterScreen(),
+        '/otp-verification': (context) => OTPVerificationScreen(),
+        '/forget-password': (context) => ForgetPasswordScreen(),
+        '/reset-password': (context) => ResetPasswordScreen(),
+      },
     );
   }
 }
