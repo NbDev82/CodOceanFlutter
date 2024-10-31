@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
+import 'screens/register_screen.dart';
+import 'screens/otp_verification_screen.dart';
+import 'screens/forget_password_screen.dart';
+import 'screens/reset_password_screen.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(MainApp());
 }
 
 class MainApp extends StatelessWidget {
