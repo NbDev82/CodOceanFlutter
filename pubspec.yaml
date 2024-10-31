@@ -10,6 +10,18 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # HTTP package for making network requests
+  http: ^1.2.2
+
+  # JWT decoder for handling JWT tokens
+  jwt_decoder: ^2.0.1
+
+  # Provider for state management (optional, if you need state management)
+  provider: ^6.0.0
+
+  # Flutter form builder for form validation (optional)
+  flutter_form_builder: ^7.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
