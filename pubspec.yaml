@@ -20,12 +20,22 @@ dependencies:
   provider: ^6.0.0
 
   # Flutter form builder for form validation (optional)
-  flutter_form_builder: ^7.0.0
+  flutter_form_builder: ^9.5.0
 
+  shared_preferences: ^2.0.15 
+
+  pie_chart: ^5.1.0
+
+  syncfusion_flutter_charts: ^27.1.58
+
+  flutter_svg: ^1.0.0
+
+  image_picker: ^1.1.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
